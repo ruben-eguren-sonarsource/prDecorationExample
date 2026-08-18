@@ -8,6 +8,6 @@ class AppTest {
 
     @Test
     void greetingReturnsExpectedMessage() {
-        assertEquals("Hello from prDecorationExample 3!", new App().greeting());
+        assertEquals("Hello from prDecorationExample 5!", new App().greeting());
     }
 }
