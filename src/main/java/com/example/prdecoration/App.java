@@ -10,6 +10,6 @@ public class App {
     }
 
     public String greeting() {
-        return "Hello from prDecorationExample 2!";
+        return "Hello from prDecorationExample 3!";
     }
 }
