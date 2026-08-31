@@ -15,11 +15,9 @@
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <!-- SonarQube analysis. sonar.host.url and sonar.token are passed
-             from the CI environment (SONAR_HOST_URL / SONAR_TOKEN). -->
-        <sonar.projectKey>com.example:prDecorationExample</sonar.projectKey>
-        <sonar.projectName>prDecorationExample</sonar.projectName>
+        <sonar.organization>ruben-eguren-sonarsource</sonar.organization>
+        <sonar.scanner.sonarcloudUrl>https://sc-staging.io</sonar.scanner.sonarcloudUrl>
+        <sonar.scanner.apiBaseUrl>https://api.sc-staging.io</sonar.scanner.apiBaseUrl>
     </properties>
 
     <dependencies>
