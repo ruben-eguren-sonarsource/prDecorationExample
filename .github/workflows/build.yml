@@ -4,7 +4,7 @@ on:
     branches:
       - main
       - example
-      - example2
+      - example3
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
