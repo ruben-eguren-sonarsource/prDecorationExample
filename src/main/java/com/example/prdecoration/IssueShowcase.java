@@ -86,4 +86,22 @@ public class IssueShowcase {
             boolean secure, int timeout, int retries, String protocol) {
         System.out.println("Configuring " + host + ":" + port);
     }
+
+    // S107: too many parameters on a constructor.
+    public IssueShowcase(String a, String b, String c, String d,
+            String e, String f, String g, String h) {
+        System.out.println("Built with " + a);
+    }
+
+    // S107: too many parameters (mix of types).
+    public double calculate(int x1, int y1, int x2, int y2,
+            int x3, int y3, int x4, int y4) {
+        return x1 + y1 + x2 + y2 + x3 + y3 + x4 + y4;
+    }
+
+    // S107: too many parameters on a static factory method.
+    public static IssueShowcase create(String name, int age, String email,
+            String phone, String address, String city, String country, String zip) {
+        return new IssueShowcase(name, email, phone, address, city, country, zip, name);
+    }
 }
