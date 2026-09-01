@@ -80,4 +80,10 @@ public class IssueShowcase {
     public void risky() throws Exception {
         throw new Exception("boom");
     }
+
+    // S107: methods should not have too many parameters (default max is 7).
+    public void configure(String host, int port, String user, String pass,
+            boolean secure, int timeout, int retries, String protocol) {
+        System.out.println("Configuring " + host + ":" + port);
+    }
 }
