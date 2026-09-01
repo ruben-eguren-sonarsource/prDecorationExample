@@ -83,8 +83,10 @@ public class IssueShowcase {
 
     // S107: methods should not have too many parameters (default max is 7).
     public void configure(String host, int port, String user, String pass,
-            boolean secure, int timeout, int retries, String protocol) {
-        System.out.println("Configuring " + host + ":" + port);
+            boolean secure, int timeout, int retries, String protocol,
+            String region, int maxConnections, boolean verbose, String apiKey,
+            long keepAliveMs, String proxyHost, int proxyPort, int more, int more2) {
+        System.out.println("Configuringgg " + host + ":" + port);
     }
 
     // S107: too many parameters on a constructor.
