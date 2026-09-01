@@ -86,6 +86,6 @@ public class IssueShowcase {
             boolean secure, int timeout, int retries, String protocol,
             String region, int maxConnections, boolean verbose, String apiKey,
             long keepAliveMs, String proxyHost, int proxyPort, int more, int more2) {
-        System.out.println("Configuring " + host + ":" + port);
+        System.out.println("Configuringgg " + host + ":" + port);
     }
 }
