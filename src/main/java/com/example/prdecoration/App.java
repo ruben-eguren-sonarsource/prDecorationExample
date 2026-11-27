@@ -9,6 +9,11 @@ public class App {
         System.out.println(new App().greeting());
     }
 
+    /**
+     * Returns the application greeting message.
+     *
+     * @return the greeting text
+     */
     public String greeting() {
         return "Hello from prDecorationExample 5!";
     }
