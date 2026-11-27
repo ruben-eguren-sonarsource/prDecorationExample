@@ -6,6 +6,8 @@ on:
       - example
       - example3
   pull_request:
+    branches:
+      - main
     types: [opened, synchronize, reopened]
 jobs:
   build:
