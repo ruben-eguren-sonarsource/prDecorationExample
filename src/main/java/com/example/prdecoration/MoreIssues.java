@@ -7,6 +7,8 @@ import java.util.Random;
 /**
  * A second class full of intentional issues to demonstrate SonarQube PR decoration.
  * These trigger a different set of well-known Sonar Java rules than IssueShowcase.
+ *
+ * Note: kept intentionally noisy for demo purposes (feature/c).
  */
 public class MoreIssues {
 
