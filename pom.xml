@@ -16,8 +16,6 @@
         <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <sonar.organization>ruben-eguren-sonarsource</sonar.organization>
-        <sonar.scanner.sonarcloudUrl>https://sc-staging.io</sonar.scanner.sonarcloudUrl>
-        <sonar.scanner.apiBaseUrl>https://api.sc-staging.io</sonar.scanner.apiBaseUrl>
     </properties>
 
     <dependencies>
