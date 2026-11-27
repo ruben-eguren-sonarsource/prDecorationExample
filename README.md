@@ -25,3 +25,7 @@ Or after packaging:
 mvn package
 java -cp target/prDecorationExample-1.0.0-SNAPSHOT.jar com.example.prdecoration.App
 ```
+
+## Notes
+
+This section was added on branch feature/a.
